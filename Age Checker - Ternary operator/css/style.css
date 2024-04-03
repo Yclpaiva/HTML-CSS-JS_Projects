@@ -1,0 +1,43 @@
+#labelmessage{
+	font-size: 5em;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#inputagebox{
+	text-align: center;
+	padding: 20px;
+}
+
+#inputvalue{
+	text-align: center;
+	padding: 20px;
+	font-size: 1em;
+}
+
+#result{
+	font-size: 3em;
+	text-align: center;
+}
+#submit{
+	font-size: 2em;
+	text-align: center;
+}
+#buttoncontainer {
+	text-align: center;
+}
+
+.buttons{
+	font-size: 1em;
+	padding: 15px 10px;
+	color: white;
+	font-family: sans-serif;
+	background-color: hsl(214, 100%, 60%);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.buttons:hover{
+	background-color: hsl(214, 100%, 40%);
+}
