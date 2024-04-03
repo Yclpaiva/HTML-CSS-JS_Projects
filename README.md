@@ -1,1 +1,1 @@
-#Projects list made by myself in HTML, CSS and JS
+Projects list made by myself in HTML, CSS and JS
