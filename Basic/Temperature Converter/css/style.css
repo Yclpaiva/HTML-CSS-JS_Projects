@@ -77,4 +77,27 @@ body{
 #submit:active{
 	background-color: hsl(230, 100%, 60%);
 }
-#submit:
+
+@media screen and (max-width: 768px) {
+    #mainbox {
+        max-width: 90%;
+        padding: 2em;
+    }
+
+    .inputbox{
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+    }
+
+    #inputvalue, #inputvalues {
+        width: 90%;
+    }
+
+    .inputbox {
+        width: 90%;
+    }
+
+    #submit {
+        font-size: 1em;
+    }
+}
