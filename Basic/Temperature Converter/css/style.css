@@ -1,0 +1,80 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: hsl(0, 0%, 95%);
+}
+#mainbox{
+	background-color: hsl(0, 0%, 100%);
+	text-align: center;
+	border: 2px solid black;
+	max-width: 50%;
+	margin: auto;
+	border-radius: 30px;
+	padding: 3em;
+}
+
+#inputvalue, #inputvalues{
+	margin-left: 10px;
+	margin-bottom: 5%;
+	font-size: 1.2em;
+	width: 20%;
+}
+
+#inputcontainer{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.inputbox{
+	width: 45%;
+	text-align: left;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	
+	}
+
+#input_selection, #output_selection {
+	padding-left: 20%;
+}
+
+#ProgramLabel{
+	color: hsl(230, 100%, 60%);
+}
+
+#div1{
+	padding-bottom: 10px;
+}
+
+#outputvaluebox{
+	background-color: hsl(0, 0%, 90%);
+	width: 40%;
+	margin: auto;
+}
+
+#outputvalue{
+	margin: 0%;
+	font-size: 2em;
+	border: 2px solid black;
+}
+
+#submit{
+	padding: 10px;
+	color: white;
+	background-color: hsl(230, 100%, 60%);
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+#submit:hover{
+	background-color: hsl(230, 100%, 80%);
+	transition: 100ms;
+}
+
+#submit:active{
+	background-color: hsl(230, 100%, 60%);
+}
+#submit:

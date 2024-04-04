@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+	<div id="mainbox">
+	<h1 id="ProgramLabel">Conversion Program</h1>
+	<label for="inputvalue" id="inputvalues">insert value:</label><input type="number" id="inputvalue">
+	
+	<div id="input_container">
+	<div class="inputbox">
+	<p id="input_selection">input metric:</p>
+	<input type="radio" id="celsius_in" name="selection_in" value=""><label for="celsius_in">Celsius</label><br>
+	<input type="radio" id="fahrenheit_in" name="selection_in" value=""><label for="fahrenheit_in">Fahrenheit</label><br>
+	<input type="radio" id="kelvin_in" name="selection_in" value=""><label for="kelvin_in">Kelvin</label><br>	
+	</div>	
+	<div class="inputbox">
+	<p id="output_selection">output metric:</p>
+	<input type="radio" id="celsius_out" name="selection_out" value=""><label for="celsius_out">Celsius</label><br>
+	<input type="radio" id="fahrenheit_out" name="selection_out" value=""><label for="fahrenheit_out">Fahrenheit</label><br>
+	<input type="radio" id="kelvin_out" name="selection_out" value=""><label for="kelvin_out">Kelvin</label>
+	</div> 
+	</div>
+
+	<p id="message">Your output is: </p>
+	<div id="div1">
+	<div id="outputvaluebox">
+	<p id="outputvalue"><br></p>	
+	</div></div>
+	<button type="submit" id="submit">Submit</button>
+	</div>
+	<script src="index.js"></script>
+	</body>
+</html>
