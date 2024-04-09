@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<div id="main_container">
+	<h1 id="Program_label">Password Generator</h1>
+	<hr>
+	<div id="parameters">
+
+		<label for="password_lenght" id="password_length_label" name = "labels">Password Lenght: </label><input type="" id="password_lenght">
+		<p id="password_output"><br></p>
+		<table>
+			<tr></tr><td><div id="parameter"><input id="lowercase" type="checkbox" name="checkbx" value=""><label for="lowercase" id="lowercase_label" name = "labels">Lowercase </label></div></td>
+			<td><div id="parameter"><input id="uppercase" type="checkbox" name="checkbx" value=""><label for="uppercase" id="uppercase_label" name = "labels">Uppercase </label></div></td></tr>
+			<tr><td><div id="parameter"><input id="number" type="checkbox" name="checkbx" value=""><label for="number" id="number_label" name = "labels">Numbers </label></div></td>
+			<td><div id="parameter"><input id="symbols" type="checkbox" name="checkbx" value=""><label for="symbols" id="symbols_label" name = "labels">Symbols </label></div></td></tr>
+		</table>
+
+		<button type="submit" id="generate_button">Generate</button>
+
+	</div>
+	<script src="index.js"></script>
+	
+	</div>
+	</body>
+</html>

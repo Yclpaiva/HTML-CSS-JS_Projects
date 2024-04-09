@@ -1,0 +1,77 @@
+#main_container{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	padding-bottom: 3%;
+	font-family: "Tilt Neon", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+
+}
+
+
+#password_length_label{
+	font-size: 1.8em;
+	padding-bottom: 5%;
+}
+
+#password_lenght{
+	font-size: 2em;
+	width: 20%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#password_output{
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+	padding: 10px;
+	margin: 30px auto;
+	background: black;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);	
+
+}
+
+#parameter{
+	text-align: left;
+}
+
+table{
+	margin: 0 auto;
+}
+td{
+	padding: 10px;
+}
+input[type="checkbox"], label {
+        font-size: 2em;
+        height: 30px; 
+	width: 30px;
+        }
+
+#generate_button{
+	color: white;
+	background-color: hsl(0, 100%, 70%);
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 3em;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 10px;
+	display: block;
+	margin: 30px auto ;
+}
+
+#generate_button:hover{
+	background-color: hsl(0, 100%, 50%);
+	transition: 200ms;
+
+}
+
+#generate_button:active{
+	background-color: hsl(0, 100%, 70%);
+}
+
