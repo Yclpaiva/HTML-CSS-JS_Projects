@@ -1,0 +1,29 @@
+body{
+	background-image: url(https://img.goodfon.com/wallpaper/nbig/5/b2/les-gory-derevia-lug-trava-tsvety-nebo-solntse-luchi-oblaka.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Kanit", sans-serif;
+	font-weight: bold;
+  	font-style:normal;
+}
+#mainbox{
+	text-align: center;
+	backdrop-filter: blur(3px);
+	width: 50%;
+	height: 80vh;
+	margin: 0 auto;
+	border: 30px ;
+	border-radius: 100px;
+}
+
+#app_label{
+	font-size: 5em;
+
+}
+
+#time{
+	font-size: 10em;
+	margin: 0 0 0 0;
+	color: white;
+}
