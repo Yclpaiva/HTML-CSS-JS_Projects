@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+}
+
+#main_container{
+	text-align: center;
+}
+
+#generate{
+	margin: 5px;
+	background-color: hsl(0, 0%, 100%);
+	font-size: 1.2em;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	transition: 200ms;
+}
+
+#generate:hover{
+	background-color: hsl(0, 0%, 90%);
+	padding-left: 30px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+#generate:active{
+	background-color: hsl(0, 0%, 100%);
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#gallery{
+	width: 80%;
+	margin: 0;
+	margin: 5% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+
+@media screen and (max-width: 768px){
+
+	#gallery{
+		width: 90%;
+	}
+
+
+}
